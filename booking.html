@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Room Booking</title>
+
+<style>
+
+body{
+font-family:Arial;
+background:#f2f2f2;
+text-align:center;
+margin:0;
+}
+
+nav{
+background:black;
+padding:15px;
+}
+
+nav a{
+color:white;
+margin:20px;
+text-decoration:none;
+}
+
+.form-box{
+background:white;
+width:400px;
+margin:50px auto;
+padding:30px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+}
+
+input,select{
+width:90%;
+padding:10px;
+margin:10px;
+}
+
+button{
+background:black;
+color:white;
+padding:12px 20px;
+border:none;
+cursor:pointer;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="rooms.html">Rooms</a>
+<a href="booking.html">Booking</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+</nav>
+
+<h1>Book Your Room</h1>
+
+<div class="form-box">
+
+<form>
+
+<input type="text" placeholder="Your Name" required>
+
+<input type="email" placeholder="Email" required>
+
+<select>
+<option>Select Room</option>
+<option>Deluxe Room</option>
+<option>VIP Room</option>
+<option>Super Deluxe Room</option>
+</select>
+
+<label>Check In</label>
+<input type="date">
+
+<label>Check Out</label>
+<input type="date">
+
+<input type="number" placeholder="Guests">
+
+<button>Confirm Booking</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
